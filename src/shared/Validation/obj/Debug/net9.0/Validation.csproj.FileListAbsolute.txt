@@ -1,0 +1,11 @@
+D:\microservices Net\Company\src\shared\Validation\bin\Debug\net9.0\Validation.deps.json
+D:\microservices Net\Company\src\shared\Validation\bin\Debug\net9.0\Validation.dll
+D:\microservices Net\Company\src\shared\Validation\bin\Debug\net9.0\Validation.pdb
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.AssemblyInfo.cs
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.dll
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\refint\Validation.dll
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\Validation.pdb
+D:\microservices Net\Company\src\shared\Validation\obj\Debug\net9.0\ref\Validation.dll

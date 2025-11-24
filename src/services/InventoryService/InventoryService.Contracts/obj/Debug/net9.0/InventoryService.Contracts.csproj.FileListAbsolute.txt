@@ -1,0 +1,11 @@
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\bin\Debug\net9.0\InventoryService.Contracts.deps.json
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\bin\Debug\net9.0\InventoryService.Contracts.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\bin\Debug\net9.0\InventoryService.Contracts.pdb
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.AssemblyInfo.cs
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\refint\InventoryService.Contracts.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\InventoryService.Contracts.pdb
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Contracts\obj\Debug\net9.0\ref\InventoryService.Contracts.dll

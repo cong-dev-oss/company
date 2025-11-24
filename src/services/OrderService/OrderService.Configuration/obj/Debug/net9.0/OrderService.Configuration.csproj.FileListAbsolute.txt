@@ -1,0 +1,12 @@
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\bin\Debug\net9.0\OrderService.Configuration.deps.json
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\bin\Debug\net9.0\OrderService.Configuration.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\bin\Debug\net9.0\OrderService.Configuration.pdb
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.AssemblyInfo.cs
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\refint\OrderService.Configuration.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.pdb
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\ref\OrderService.Configuration.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.csproj.AssemblyReference.cache

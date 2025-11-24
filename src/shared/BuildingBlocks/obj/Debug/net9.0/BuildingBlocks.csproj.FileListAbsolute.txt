@@ -1,0 +1,12 @@
+D:\microservices Net\Company\src\shared\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.deps.json
+D:\microservices Net\Company\src\shared\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.dll
+D:\microservices Net\Company\src\shared\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.pdb
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.AssemblyInfo.cs
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.dll
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\refint\BuildingBlocks.dll
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.pdb
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\ref\BuildingBlocks.dll
+D:\microservices Net\Company\src\shared\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.csproj.AssemblyReference.cache

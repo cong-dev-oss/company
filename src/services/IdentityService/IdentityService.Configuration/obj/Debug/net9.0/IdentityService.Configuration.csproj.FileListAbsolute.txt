@@ -1,0 +1,11 @@
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\bin\Debug\net9.0\IdentityService.Configuration.deps.json
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\bin\Debug\net9.0\IdentityService.Configuration.dll
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\bin\Debug\net9.0\IdentityService.Configuration.pdb
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.AssemblyInfo.cs
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.dll
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\refint\IdentityService.Configuration.dll
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\IdentityService.Configuration.pdb
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Configuration\obj\Debug\net9.0\ref\IdentityService.Configuration.dll

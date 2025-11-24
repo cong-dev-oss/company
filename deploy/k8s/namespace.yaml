@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: company-microservices
+  labels:
+    name: company-microservices
+    environment: production
+

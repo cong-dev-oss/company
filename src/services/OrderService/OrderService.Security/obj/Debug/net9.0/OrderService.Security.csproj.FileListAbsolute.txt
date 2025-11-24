@@ -1,0 +1,12 @@
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\bin\Debug\net9.0\OrderService.Security.deps.json
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\bin\Debug\net9.0\OrderService.Security.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\bin\Debug\net9.0\OrderService.Security.pdb
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.AssemblyInfo.cs
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\refint\OrderService.Security.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.pdb
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\ref\OrderService.Security.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.csproj.AssemblyReference.cache

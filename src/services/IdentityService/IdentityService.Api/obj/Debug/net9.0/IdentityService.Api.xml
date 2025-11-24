@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IdentityService.Api</name>
+    </assembly>
+    <members>
+        <member name="T:IdentityService.Api.Controllers.AuthController">
+            <summary>
+            Authentication and Authorization endpoints
+            </summary>
+        </member>
+        <member name="M:IdentityService.Api.Controllers.AuthController.Register(IdentityService.Contracts.DTOs.Requests.RegisterRequest)">
+            <summary>
+            Register a new user
+            </summary>
+        </member>
+        <member name="M:IdentityService.Api.Controllers.AuthController.Login(IdentityService.Contracts.DTOs.Requests.LoginRequest)">
+            <summary>
+            Authenticate user with email and password
+            </summary>
+            <param name="request">Login credentials</param>
+            <returns>Authentication response containing access token, refresh token, and user information</returns>
+            <response code="200">Login successful. Returns authentication tokens.</response>
+            <response code="401">Invalid credentials or account is locked.</response>
+            <response code="403">Account is inactive or forbidden.</response>
+        </member>
+        <member name="M:IdentityService.Api.Controllers.AuthController.GetCurrentUser">
+            <summary>
+            Get current authenticated user information
+            </summary>
+            <returns>Current user information including ID, email, name, and roles</returns>
+            <response code="200">Returns current user information.</response>
+            <response code="401">Unauthorized. Valid JWT token required.</response>
+        </member>
+        <member name="M:IdentityService.Api.Controllers.AuthController.RefreshToken(IdentityService.Contracts.DTOs.Requests.RefreshTokenRequest)">
+            <summary>
+            Refresh access token using a valid refresh token
+            </summary>
+            <param name="request">Expired access token and refresh token</param>
+            <returns>New authentication tokens</returns>
+            <response code="200">Tokens refreshed successfully. Returns new access and refresh tokens.</response>
+            <response code="401">Invalid or expired tokens.</response>
+        </member>
+    </members>
+</doc>

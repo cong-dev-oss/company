@@ -1,0 +1,12 @@
+D:\microservices Net\Company\src\shared\Security\bin\Debug\net9.0\Security.deps.json
+D:\microservices Net\Company\src\shared\Security\bin\Debug\net9.0\Security.dll
+D:\microservices Net\Company\src\shared\Security\bin\Debug\net9.0\Security.pdb
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.AssemblyInfo.cs
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.dll
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\refint\Security.dll
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.pdb
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\ref\Security.dll
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.csproj.AssemblyReference.cache

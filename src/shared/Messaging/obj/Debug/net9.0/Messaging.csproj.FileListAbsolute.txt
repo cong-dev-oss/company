@@ -1,0 +1,11 @@
+D:\microservices Net\Company\src\shared\Messaging\bin\Debug\net9.0\Messaging.deps.json
+D:\microservices Net\Company\src\shared\Messaging\bin\Debug\net9.0\Messaging.dll
+D:\microservices Net\Company\src\shared\Messaging\bin\Debug\net9.0\Messaging.pdb
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.AssemblyInfo.cs
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.dll
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\refint\Messaging.dll
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\Messaging.pdb
+D:\microservices Net\Company\src\shared\Messaging\obj\Debug\net9.0\ref\Messaging.dll

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:OrderService.Api.Controllers.OrdersController.CreateOrder(OrderService.Contracts.DTOs.Requests.CreateOrderRequest,System.Threading.CancellationToken)">
+            <summary>
+            Create a new order
+            </summary>
+        </member>
+        <member name="M:OrderService.Api.Controllers.OrdersController.GetOrder(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Get order by ID
+            </summary>
+        </member>
+        <member name="M:OrderService.Api.Controllers.OrdersController.GetMyOrders(System.Threading.CancellationToken)">
+            <summary>
+            Get orders for current user
+            </summary>
+        </member>
+    </members>
+</doc>

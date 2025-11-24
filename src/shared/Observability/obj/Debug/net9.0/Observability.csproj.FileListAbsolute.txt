@@ -1,0 +1,11 @@
+D:\microservices Net\Company\src\shared\Observability\bin\Debug\net9.0\Observability.deps.json
+D:\microservices Net\Company\src\shared\Observability\bin\Debug\net9.0\Observability.dll
+D:\microservices Net\Company\src\shared\Observability\bin\Debug\net9.0\Observability.pdb
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.GeneratedMSBuildEditorConfig.editorconfig
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.AssemblyInfoInputs.cache
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.AssemblyInfo.cs
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.csproj.CoreCompileInputs.cache
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.dll
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\refint\Observability.dll
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\Observability.pdb
+D:\microservices Net\Company\src\shared\Observability\obj\Debug\net9.0\ref\Observability.dll

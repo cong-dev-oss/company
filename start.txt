@@ -1,0 +1,32 @@
+Khởi tạo giải pháp và cấu trúc thư mục
+- Mục tiêu: Tạo skeleton đa dịch vụ, chia lớp rõ ràng, sẵn sàng CI/CD và bảo mật.
+- Bàn giao: Solution .NET, các dự án dịch vụ, gateway, thư viện dùng chung, và kịch bản deploy.
+- Tạo solution và dự án nền tảng
+- Label: Tạo solution
+- Description: dotnet new sln -n Company.Microservices
+- Label: Tạo gateway (ASP.NET Core)
+- Description: dotnet new web -n ApiGateway
+- Label: Tạo 2 dịch vụ mẫu
+- Description: dotnet new webapi -n OrderService.Api và dotnet new webapi -n InventoryService.Api
+- Label: Thêm vào solution
+- Description: dotnet sln add ApiGateway OrderService.Api InventoryService.Api
+- Chuẩn hóa cấu trúc dự án mỗi service
+- Label: Tách lớp
+- Description: Tạo các project: Application, Domain, Infrastructure, Contracts, Tests; tham chiếu Api -> Application -> Domain, Api -> Infrastructure.
+- Label: Thư viện dùng chung
+- Description: Tạo /shared/Security, /shared/Observability, /shared/Messaging làm class libraries để dùng lại giữa các services.
+- Thiết lập chuẩn bảo mật theo hướng dẫn Microsoft
+- Label: Trọng tâm
+- Description: Chuẩn bị cho AuthN/Auth
+
+- Chuẩn hóa cấu trúc dự án mỗi service
+- Label: Tách lớp
+- Description: Tạo các project: Application, Domain, Infrastructure, Contracts, Tests; tham chiếu Api -> Application -> Domain, Api -> Infrastructure.
+- Label: Thư viện dùng chung
+- Description: Tạo /shared/Security, /shared/Observability, /shared/Messaging làm class libraries để dùng lại giữa các services.
+- Thiết lập chuẩn bảo mật theo hướng dẫn Microsoft
+- Label: Trọng tâm
+- Description: Chuẩn bị cho AuthN/AuthZ, secrets, và bảo mật ứng dụng — đây là ba trụ cột Microsoft khuyến nghị cho microservices .NET.
+
+
+

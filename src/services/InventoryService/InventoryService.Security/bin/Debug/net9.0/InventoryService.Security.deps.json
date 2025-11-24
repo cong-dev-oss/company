@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "InventoryService.Security/1.0.0": {
+        "runtime": {
+          "InventoryService.Security.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InventoryService.Security/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

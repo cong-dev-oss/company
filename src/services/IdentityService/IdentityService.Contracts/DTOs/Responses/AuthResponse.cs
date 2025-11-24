@@ -1,0 +1,19 @@
+namespace IdentityService.Contracts.DTOs.Responses;
+
+public record AuthResponse
+{
+    public string AccessToken { get; init; } = string.Empty;
+    public string RefreshToken { get; init; } = string.Empty;
+    public DateTime ExpiresAt { get; init; }
+    public UserInfo User { get; init; } = null!;
+}
+
+public record UserInfo
+{
+    public Guid Id { get; init; }
+    public string Email { get; init; } = string.Empty;
+    public string FirstName { get; init; } = string.Empty;
+    public string LastName { get; init; } = string.Empty;
+    public List<string> Roles { get; init; } = new();
+}
+
