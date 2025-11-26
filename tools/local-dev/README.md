@@ -2,6 +2,18 @@
 
 Hướng dẫn setup database local cho dự án Company Microservices sử dụng Docker Desktop.
 
+## ✅ Trạng thái hiện tại
+
+Tất cả services đã được cấu hình và migrations đã được tạo:
+
+| Service | Database | Tables | Status |
+|---------|----------|--------|--------|
+| **OrderService** | `order_db` | `Orders`, `OrderItems` | ✅ Ready |
+| **InventoryService** | `inventory_db` | `Products`, `Stocks` | ✅ Ready |
+| **IdentityService** | `identity_db` | `Users`, `Roles`, `RefreshTokens`, Identity tables | ✅ Ready |
+
+**Lưu ý:** Tất cả services đang sử dụng PostgreSQL. Migrations đã được tạo sẵn, chỉ cần apply vào database.
+
 ## 📋 Yêu cầu
 
 - Docker Desktop đã cài đặt và đang chạy
@@ -289,12 +301,56 @@ docker exec company-postgres psql -U postgres -c "CREATE DATABASE identity_db;"
 2. Đã thêm NuGet package `Npgsql.EntityFrameworkCore.PostgreSQL` chưa?
 3. Code có dùng `UseNpgsql()` thay vì `UseSqlServer()` chưa?
 
+### Lỗi Migration - "Unable to create DbContext"
+
+**Lỗi:** `The property 'Id' cannot be added to the type 'EntityName' because no property type was specified`
+
+**Giải pháp:**
+- Đảm bảo entity có property `Id` hoặc cấu hình shadow property với kiểu rõ ràng:
+  ```csharp
+  builder.Property<Guid>("Id").ValueGeneratedOnAdd();
+  ```
+
+### Lỗi Migration - SQL Server thay vì PostgreSQL
+
+**Lỗi:** Migration tạo cho SQL Server thay vì PostgreSQL
+
+**Giải pháp:**
+1. Xóa thư mục `Migrations/` cũ
+2. Đảm bảo `DependencyInjection.cs` dùng `UseNpgsql()` không phải `UseSqlServer()`
+3. Đảm bảo connection string là PostgreSQL format
+4. Tạo lại migration: `dotnet ef migrations add InitialCreate`
+
 ## 📝 Next Steps
 
 1. ✅ Databases đã sẵn sàng
-2. 📝 Cập nhật connection strings trong `appsettings.Development.json`
-3. 🔄 Chạy EF Core migrations
-4. 🚀 Start services và test kết nối
+2. ✅ Connection strings đã được cấu hình trong `appsettings.Development.json`
+3. ✅ EF Core migrations đã được tạo và apply
+4. 🚀 Start services và test kết nối:
+
+```cmd
+# Order Service
+cd src\services\OrderService\OrderService.Api
+dotnet run
+
+# Inventory Service
+cd src\services\InventoryService\InventoryService.Api
+dotnet run
+
+# Identity Service
+cd src\services\IdentityService\IdentityService.Api
+dotnet run
+
+# API Gateway
+cd src\gateway\ApiGateway
+dotnet run
+```
+
+5. 📊 Kiểm tra services:
+   - Order Service: http://localhost:5001/swagger
+   - Inventory Service: http://localhost:5002/swagger
+   - Identity Service: http://localhost:5003/swagger
+   - API Gateway: http://localhost:5000/swagger
 
 ## 📚 Tài liệu thêm
 

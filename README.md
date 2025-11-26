@@ -41,6 +41,16 @@ Company.Microservices/
 - Docker Desktop (cho local development)
 - PostgreSQL (database chính) - được setup tự động qua Docker Compose
 
+### ✅ Trạng thái Setup
+
+Tất cả services đã được cấu hình sẵn:
+- ✅ **OrderService**: Database `order_db`, migrations đã tạo
+- ✅ **InventoryService**: Database `inventory_db`, migrations đã tạo  
+- ✅ **IdentityService**: Database `identity_db`, migrations đã tạo
+- ✅ **API Gateway**: Đã cấu hình YARP
+
+**Next:** Chỉ cần start databases và apply migrations (xem bên dưới)
+
 ### Chạy local
 
 1. **Setup Database (Bước đầu tiên):**
@@ -119,10 +129,21 @@ Company.Microservices/
 - **MediatR**: CQRS pattern
 - **FluentValidation**: Input validation
 - **Entity Framework Core**: ORM
-- **Npgsql.EntityFrameworkCore.PostgreSQL**: PostgreSQL provider cho EF Core
+- **Npgsql.EntityFrameworkCore.PostgreSQL**: PostgreSQL provider cho EF Core (tất cả services)
+- **Microsoft.AspNetCore.Identity.EntityFrameworkCore**: Identity management (IdentityService)
 - **YARP**: Reverse proxy cho API Gateway
 - **OpenTelemetry**: Distributed tracing
 - **Serilog**: Structured logging
+
+## 🗄️ Database Status
+
+Tất cả services đã được cấu hình với PostgreSQL:
+
+- **OrderService**: Database `order_db` - Tables: `Orders`, `OrderItems`
+- **InventoryService**: Database `inventory_db` - Tables: `Products`, `Stocks`
+- **IdentityService**: Database `identity_db` - Tables: `Users`, `Roles`, `RefreshTokens`, và các Identity tables
+
+Xem chi tiết: [Database Setup Guide](./tools/local-dev/README.md)
 
 ## 🧪 Testing
 
@@ -177,6 +198,20 @@ Xem chi tiết trong `deploy/`:
 2. Implement theo Clean Architecture principles
 3. Viết tests (Unit + Integration)
 4. Submit PR với description rõ ràng
+
+## ✅ Setup Checklist
+
+Sau khi clone repository, thực hiện các bước sau:
+
+- [ ] Cài đặt .NET 9.0 SDK
+- [ ] Cài đặt và start Docker Desktop
+- [ ] Start databases: `cd tools/local-dev && docker compose up -d postgres sqlserver redis pgadmin`
+- [ ] Apply migrations cho tất cả services (xem phần "Run EF Core Migrations" ở trên)
+- [ ] Restore packages: `dotnet restore`
+- [ ] Build solution: `dotnet build`
+- [ ] Start services và test
+
+Xem hướng dẫn chi tiết: [Database Setup Guide](./tools/local-dev/README.md)
 
 ## 📄 License
 
