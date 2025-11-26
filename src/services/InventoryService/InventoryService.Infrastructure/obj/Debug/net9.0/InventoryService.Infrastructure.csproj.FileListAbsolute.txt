@@ -9,3 +9,12 @@ D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infr
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\refint\InventoryService.Infrastructure.dll
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\InventoryService.Infrastructure.pdb
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\ref\InventoryService.Infrastructure.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\InventoryService.Infrastructure.sourcelink.json
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\bin\Debug\net9.0\InventoryService.Infrastructure.runtimeconfig.json
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\bin\Debug\net9.0\InventoryService.Application.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\bin\Debug\net9.0\InventoryService.Domain.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\bin\Debug\net9.0\InventoryService.Domain.pdb
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\bin\Debug\net9.0\InventoryService.Application.pdb
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\InventoryService.Infrastructure.csproj.AssemblyReference.cache
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\Inventor.7CFDF49E.Up2Date
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Infrastructure\obj\Debug\net9.0\InventoryService.Infrastructure.genruntimeconfig.cache

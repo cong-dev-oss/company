@@ -9,3 +9,4 @@ D:\microservices Net\Company\src\services\InventoryService\InventoryService.Appl
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Application\obj\Debug\net9.0\refint\InventoryService.Application.dll
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Application\obj\Debug\net9.0\InventoryService.Application.pdb
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Application\obj\Debug\net9.0\ref\InventoryService.Application.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Application\obj\Debug\net9.0\InventoryService.Application.sourcelink.json

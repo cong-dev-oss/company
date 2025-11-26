@@ -9,3 +9,4 @@ D:\microservices Net\Company\src\services\InventoryService\InventoryService.Doma
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Domain\obj\Debug\net9.0\refint\InventoryService.Domain.dll
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Domain\obj\Debug\net9.0\InventoryService.Domain.pdb
 D:\microservices Net\Company\src\services\InventoryService\InventoryService.Domain\obj\Debug\net9.0\ref\InventoryService.Domain.dll
+D:\microservices Net\Company\src\services\InventoryService\InventoryService.Domain\obj\Debug\net9.0\InventoryService.Domain.sourcelink.json

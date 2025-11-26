@@ -10,3 +10,4 @@ D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\refint\Securit
 D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.pdb
 D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\ref\Security.dll
 D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.csproj.AssemblyReference.cache
+D:\microservices Net\Company\src\shared\Security\obj\Debug\net9.0\Security.sourcelink.json

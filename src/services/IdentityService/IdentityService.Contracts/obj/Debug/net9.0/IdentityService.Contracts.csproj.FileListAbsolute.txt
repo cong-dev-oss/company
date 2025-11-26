@@ -9,3 +9,4 @@ D:\microservices Net\Company\src\services\IdentityService\IdentityService.Contra
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Contracts\obj\Debug\net9.0\refint\IdentityService.Contracts.dll
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Contracts\obj\Debug\net9.0\IdentityService.Contracts.pdb
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Contracts\obj\Debug\net9.0\ref\IdentityService.Contracts.dll
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Contracts\obj\Debug\net9.0\IdentityService.Contracts.sourcelink.json

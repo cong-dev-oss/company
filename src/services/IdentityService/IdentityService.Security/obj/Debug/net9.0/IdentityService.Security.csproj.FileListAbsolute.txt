@@ -10,3 +10,4 @@ D:\microservices Net\Company\src\services\IdentityService\IdentityService.Securi
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Security\obj\Debug\net9.0\IdentityService.Security.pdb
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Security\obj\Debug\net9.0\ref\IdentityService.Security.dll
 D:\microservices Net\Company\src\services\IdentityService\IdentityService.Security\obj\Debug\net9.0\IdentityService.Security.csproj.AssemblyReference.cache
+D:\microservices Net\Company\src\services\IdentityService\IdentityService.Security\obj\Debug\net9.0\IdentityService.Security.sourcelink.json

@@ -1,4 +1,5 @@
 using InventoryService.Api.Extensions;
+using InventoryService.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 
 // Add Swagger documentation
 builder.Services.AddSwaggerDocumentation(builder.Configuration);
+
+// Add Infrastructure (Database, etc.)
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

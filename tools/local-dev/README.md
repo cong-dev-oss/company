@@ -143,30 +143,56 @@ docker exec company-postgres psql -U postgres -c "\l"
 
 ## 🔄 Run EF Core Migrations
 
-Sau khi databases đã sẵn sàng, chạy migrations để tạo tables:
+Sau khi databases đã sẵn sàng, apply migrations để tạo tables:
 
 ### Order Service
 
 ```cmd
 cd src\services\OrderService\OrderService.Infrastructure
-dotnet ef migrations add InitialCreate --startup-project ..\OrderService.Api
 dotnet ef database update --startup-project ..\OrderService.Api
 ```
+
+**Database:** `order_db`  
+**Tables:** `Orders`, `OrderItems`
 
 ### Inventory Service
 
 ```cmd
 cd src\services\InventoryService\InventoryService.Infrastructure
-dotnet ef migrations add InitialCreate --startup-project ..\InventoryService.Api
 dotnet ef database update --startup-project ..\InventoryService.Api
 ```
+
+**Database:** `inventory_db`  
+**Tables:** `Products`, `Stocks`
 
 ### Identity Service
 
 ```cmd
 cd src\services\IdentityService\IdentityService.Infrastructure
-dotnet ef migrations add InitialCreate --startup-project ..\IdentityService.Api
 dotnet ef database update --startup-project ..\IdentityService.Api
+```
+
+**Database:** `identity_db`  
+**Tables:** `Users`, `Roles`, `RefreshTokens`, `AspNetUserClaims`, `AspNetRoleClaims`, `AspNetUserLogins`, `AspNetUserTokens`, `UserRoles`
+
+### Tạo Migration Mới (Khi cần)
+
+Nếu bạn thay đổi entities và cần tạo migration mới:
+
+```cmd
+# Tạo migration mới
+cd src\services\ServiceName\ServiceName.Infrastructure
+dotnet ef migrations add MigrationName --startup-project ..\ServiceName.Api
+
+# Apply migration
+dotnet ef database update --startup-project ..\ServiceName.Api
+```
+
+### Xóa Migration (Nếu cần rollback)
+
+```cmd
+cd src\services\ServiceName\ServiceName.Infrastructure
+dotnet ef migrations remove --startup-project ..\ServiceName.Api
 ```
 
 ## 🛠️ Useful Commands

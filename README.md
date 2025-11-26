@@ -63,18 +63,26 @@ Company.Microservices/
    - Password: `admin`
 
 2. **Run EF Core Migrations:**
+   
+   Tất cả migrations đã được tạo sẵn. Chỉ cần apply vào database:
+   
    ```bash
    # Order Service
    cd src/services/OrderService/OrderService.Infrastructure
    dotnet ef database update --startup-project ..\OrderService.Api
    
-   # Inventory Service (khi đã có migrations)
+   # Inventory Service
    cd src/services/InventoryService/InventoryService.Infrastructure
    dotnet ef database update --startup-project ..\InventoryService.Api
    
-   # Identity Service (khi đã có migrations)
+   # Identity Service
    cd src/services/IdentityService/IdentityService.Infrastructure
    dotnet ef database update --startup-project ..\IdentityService.Api
+   ```
+   
+   **Lưu ý:** Nếu cần tạo migration mới:
+   ```bash
+   dotnet ef migrations add MigrationName --startup-project ..\ServiceName.Api
    ```
 
 3. **Restore packages:**

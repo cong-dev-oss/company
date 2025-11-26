@@ -4,14 +4,14 @@
     "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj": {
+    "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj",
-        "projectName": "InventoryService.Infrastructure",
-        "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj",
+        "projectUniqueName": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj",
+        "projectName": "InventoryService.Application",
+        "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\obj\\",
+        "outputPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,153 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\InventoryService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\InventoryService.Domain.csproj",
+        "projectName": "InventoryService.Domain",
+        "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\InventoryService.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj",
+        "projectName": "InventoryService.Infrastructure",
+        "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj": {
+                "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj"
+              },
+              "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\InventoryService.Domain.csproj": {
+                "projectPath": "D:\\microservices Net\\Company\\src\\services\\InventoryService\\InventoryService.Domain\\InventoryService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
