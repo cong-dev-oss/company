@@ -328,29 +328,39 @@ docker exec company-postgres psql -U postgres -c "CREATE DATABASE identity_db;"
 3. ✅ EF Core migrations đã được tạo và apply
 4. 🚀 Start services và test kết nối:
 
-```cmd
-# Order Service
-cd src\services\OrderService\OrderService.Api
-dotnet run
+   **Xem hướng dẫn chi tiết:** [RUN_SERVICES.md](../RUN_SERVICES.md)
 
-# Inventory Service
-cd src\services\InventoryService\InventoryService.Api
-dotnet run
+   ```cmd
+   # Mở 4 terminal windows riêng và chạy từng service:
+   
+   # Terminal 1: Order Service
+   cd src\services\OrderService\OrderService.Api
+   dotnet run
+   # URL: http://localhost:5260/swagger
 
-# Identity Service
-cd src\services\IdentityService\IdentityService.Api
-dotnet run
+   # Terminal 2: Inventory Service
+   cd src\services\InventoryService\InventoryService.Api
+   dotnet run
+   # URL: http://localhost:5052/swagger
 
-# API Gateway
-cd src\gateway\ApiGateway
-dotnet run
-```
+   # Terminal 3: Identity Service
+   cd src\services\IdentityService\IdentityService.Api
+   dotnet run
+   # URL: http://localhost:5003/swagger
+
+   # Terminal 4: API Gateway
+   cd src\gateway\ApiGateway
+   dotnet run
+   # URL: http://localhost:5126/swagger
+   ```
 
 5. 📊 Kiểm tra services:
-   - Order Service: http://localhost:5001/swagger
-   - Inventory Service: http://localhost:5002/swagger
+   - Order Service: http://localhost:5260/swagger
+   - Inventory Service: http://localhost:5052/swagger
    - Identity Service: http://localhost:5003/swagger
-   - API Gateway: http://localhost:5000/swagger
+   - API Gateway: http://localhost:5126/swagger
+   
+   **Lưu ý:** Ports có thể khác nhau, kiểm tra trong `launchSettings.json` của mỗi service.
 
 ## 📚 Tài liệu thêm
 

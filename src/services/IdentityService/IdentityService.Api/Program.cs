@@ -41,6 +41,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline
 app.UseSwaggerDocumentation();
 
+// Redirect root and common typos to Swagger in Development
+if (app.Environment.IsDevelopment())
+{
+    app.MapGet("/", () => Results.Redirect("/swagger")).ExcludeFromDescription();
+    app.MapGet("/swaggers", () => Results.Redirect("/swagger")).ExcludeFromDescription();
+    app.MapGet("/swagger/", () => Results.Redirect("/swagger")).ExcludeFromDescription();
+}
+
 app.UseHttpsRedirection();
 
 app.UseCors();

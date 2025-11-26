@@ -10,3 +10,4 @@ D:\microservices Net\Company\src\gateway\Security\obj\Debug\net9.0\Security.dll
 D:\microservices Net\Company\src\gateway\Security\obj\Debug\net9.0\refint\Security.dll
 D:\microservices Net\Company\src\gateway\Security\obj\Debug\net9.0\Security.pdb
 D:\microservices Net\Company\src\gateway\Security\obj\Debug\net9.0\ref\Security.dll
+D:\microservices Net\Company\src\gateway\Security\obj\Debug\net9.0\Security.sourcelink.json

@@ -106,23 +106,34 @@ Tất cả services đã được cấu hình sẵn:
    ```
 
 5. **Run services:**
+   
+   **Xem hướng dẫn chi tiết:** [RUN_SERVICES.md](./RUN_SERVICES.md)
+   
    ```bash
-   # Order Service
+   # Mở 4 terminal windows riêng và chạy từng service:
+   
+   # Terminal 1: Order Service
    cd src/services/OrderService/OrderService.Api
    dotnet run
+   # URL: http://localhost:5260/swagger
 
-   # Inventory Service
+   # Terminal 2: Inventory Service
    cd src/services/InventoryService/InventoryService.Api
    dotnet run
+   # URL: http://localhost:5052/swagger
 
-   # Identity Service
+   # Terminal 3: Identity Service
    cd src/services/IdentityService/IdentityService.Api
    dotnet run
+   # URL: http://localhost:5003/swagger
 
-   # API Gateway
+   # Terminal 4: API Gateway
    cd src/gateway/ApiGateway
    dotnet run
+   # URL: http://localhost:5126/swagger
    ```
+   
+   **Lưu ý:** Chạy mỗi service trong terminal riêng để dễ theo dõi logs.
 
 ## 📦 Packages chính
 
@@ -187,7 +198,10 @@ Xem chi tiết trong `deploy/`:
 ## 📚 Documentation
 
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - Kiến trúc chi tiết
+- [RUN_SERVICES.md](./RUN_SERVICES.md) - **Hướng dẫn chạy services** ⭐
 - [Database Setup Guide](./tools/local-dev/README.md) - Hướng dẫn setup database local với Docker
+- [SWAGGER_GUIDE.md](./SWAGGER_GUIDE.md) - Hướng dẫn sử dụng Swagger
+- [AUTHENTICATION_GUIDE.md](./AUTHENTICATION_GUIDE.md) - Hướng dẫn authentication
 - `docs/threat-models/` - Threat modeling
 - `docs/runbooks/` - Operational runbooks
 - `docs/compliance/` - Compliance documentation
@@ -209,9 +223,11 @@ Sau khi clone repository, thực hiện các bước sau:
 - [ ] Apply migrations cho tất cả services (xem phần "Run EF Core Migrations" ở trên)
 - [ ] Restore packages: `dotnet restore`
 - [ ] Build solution: `dotnet build`
-- [ ] Start services và test
+- [ ] Start services: Xem [RUN_SERVICES.md](./RUN_SERVICES.md) hoặc chạy `.\start-all-services.ps1`
 
-Xem hướng dẫn chi tiết: [Database Setup Guide](./tools/local-dev/README.md)
+**Xem hướng dẫn chi tiết:**
+- [RUN_SERVICES.md](./RUN_SERVICES.md) - Cách chạy services
+- [Database Setup Guide](./tools/local-dev/README.md) - Setup database
 
 ## 📄 License
 

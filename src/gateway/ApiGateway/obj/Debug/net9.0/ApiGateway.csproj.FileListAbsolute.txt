@@ -47,3 +47,4 @@ D:\microservices Net\Company\src\gateway\ApiGateway\bin\Debug\net9.0\Security.pd
 D:\microservices Net\Company\src\gateway\ApiGateway\obj\Debug\net9.0\ApiGateway.csproj.AssemblyReference.cache
 D:\microservices Net\Company\src\gateway\ApiGateway\obj\Debug\net9.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
 D:\microservices Net\Company\src\gateway\ApiGateway\obj\Debug\net9.0\ApiGateway.csproj.Up2Date
+D:\microservices Net\Company\src\gateway\ApiGateway\obj\Debug\net9.0\ApiGateway.sourcelink.json
