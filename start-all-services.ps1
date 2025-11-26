@@ -70,3 +70,4 @@ Write-Host "  - Nhấn Ctrl+C trong mỗi window để stop service"
 Write-Host "  - Đợi vài giây để services khởi động hoàn toàn"
 Write-Host ""
 
+

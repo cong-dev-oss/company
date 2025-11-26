@@ -36,3 +36,4 @@ public class StockConfiguration : IEntityTypeConfiguration<Stock>
     }
 }
 
+
