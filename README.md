@@ -39,21 +39,55 @@ Company.Microservices/
 
 - .NET 9.0 SDK
 - Docker Desktop (cho local development)
-- PostgreSQL hoặc SQL Server
+- PostgreSQL (database chính) - được setup tự động qua Docker Compose
 
 ### Chạy local
 
-1. **Restore packages:**
+1. **Setup Database (Bước đầu tiên):**
+   
+   Xem hướng dẫn chi tiết: [Database Setup Guide](./tools/local-dev/README.md)
+   
+   ```bash
+   # Start databases với Docker Compose
+   cd tools/local-dev
+   docker compose up -d postgres sqlserver redis pgadmin
+   ```
+   
+   Databases sẽ được tạo tự động:
+   - `order_db` - Cho Order Service
+   - `inventory_db` - Cho Inventory Service  
+   - `identity_db` - Cho Identity Service
+   
+   **pgAdmin (Web UI):** http://localhost:5050
+   - Email: `admin@company.com`
+   - Password: `admin`
+
+2. **Run EF Core Migrations:**
+   ```bash
+   # Order Service
+   cd src/services/OrderService/OrderService.Infrastructure
+   dotnet ef database update --startup-project ..\OrderService.Api
+   
+   # Inventory Service (khi đã có migrations)
+   cd src/services/InventoryService/InventoryService.Infrastructure
+   dotnet ef database update --startup-project ..\InventoryService.Api
+   
+   # Identity Service (khi đã có migrations)
+   cd src/services/IdentityService/IdentityService.Infrastructure
+   dotnet ef database update --startup-project ..\IdentityService.Api
+   ```
+
+3. **Restore packages:**
    ```bash
    dotnet restore
    ```
 
-2. **Build solution:**
+4. **Build solution:**
    ```bash
    dotnet build
    ```
 
-3. **Run services:**
+5. **Run services:**
    ```bash
    # Order Service
    cd src/services/OrderService/OrderService.Api
@@ -63,22 +97,21 @@ Company.Microservices/
    cd src/services/InventoryService/InventoryService.Api
    dotnet run
 
+   # Identity Service
+   cd src/services/IdentityService/IdentityService.Api
+   dotnet run
+
    # API Gateway
    cd src/gateway/ApiGateway
    dotnet run
    ```
-
-### Docker Compose (Local Development)
-
-```bash
-docker-compose -f tools/local-dev/docker-compose.yml up -d
-```
 
 ## 📦 Packages chính
 
 - **MediatR**: CQRS pattern
 - **FluentValidation**: Input validation
 - **Entity Framework Core**: ORM
+- **Npgsql.EntityFrameworkCore.PostgreSQL**: PostgreSQL provider cho EF Core
 - **YARP**: Reverse proxy cho API Gateway
 - **OpenTelemetry**: Distributed tracing
 - **Serilog**: Structured logging
@@ -109,6 +142,14 @@ dotnet test src/services/OrderService/OrderService.Tests
 
 ## 🏭 Deployment
 
+### Local Development
+
+- **Docker Compose**: Setup databases và infrastructure services
+  - PostgreSQL, SQL Server (Azure SQL Edge), Redis, Kafka, pgAdmin
+  - Xem: [tools/local-dev/README.md](./tools/local-dev/README.md)
+
+### Production
+
 Xem chi tiết trong `deploy/`:
 - Kubernetes manifests
 - Infrastructure as Code (Bicep/Terraform)
@@ -117,6 +158,7 @@ Xem chi tiết trong `deploy/`:
 ## 📚 Documentation
 
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - Kiến trúc chi tiết
+- [Database Setup Guide](./tools/local-dev/README.md) - Hướng dẫn setup database local với Docker
 - `docs/threat-models/` - Threat modeling
 - `docs/runbooks/` - Operational runbooks
 - `docs/compliance/` - Compliance documentation

@@ -11,10 +11,11 @@ public class OrderItemConfiguration : IEntityTypeConfiguration<OrderItem>
     {
         builder.ToTable("OrderItems");
 
-        builder.HasKey("Id");
+        // Use shadow property for Id with explicit type
+        builder.Property<Guid>("Id")
+            .ValueGeneratedOnAdd();
 
-        builder.Property("Id")
-            .ValueGeneratedNever();
+        builder.HasKey("Id");
 
         builder.Property(oi => oi.ProductId)
             .IsRequired();
@@ -38,6 +39,10 @@ public class OrderItemConfiguration : IEntityTypeConfiguration<OrderItem>
         });
 
         builder.Property(oi => oi.Quantity)
+            .IsRequired();
+
+        // Configure shadow property for OrderId foreign key
+        builder.Property<Guid>("OrderId")
             .IsRequired();
     }
 }

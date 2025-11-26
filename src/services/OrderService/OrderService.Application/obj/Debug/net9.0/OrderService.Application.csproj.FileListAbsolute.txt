@@ -17,3 +17,4 @@ D:\microservices Net\Company\src\services\OrderService\OrderService.Application\
 D:\microservices Net\Company\src\services\OrderService\OrderService.Application\obj\Debug\net9.0\refint\OrderService.Application.dll
 D:\microservices Net\Company\src\services\OrderService\OrderService.Application\obj\Debug\net9.0\OrderService.Application.pdb
 D:\microservices Net\Company\src\services\OrderService\OrderService.Application\obj\Debug\net9.0\ref\OrderService.Application.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Application\obj\Debug\net9.0\OrderService.Application.sourcelink.json

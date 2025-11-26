@@ -13,11 +13,11 @@ public static class DependencyInjection
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        // Add DbContext
+        // Add DbContext with PostgreSQL
         services.AddDbContext<OrderDbContext>(options =>
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection");
-            options.UseSqlServer(connectionString); // or UseNpgsql for PostgreSQL
+            options.UseNpgsql(connectionString);
         });
 
         // Register repositories

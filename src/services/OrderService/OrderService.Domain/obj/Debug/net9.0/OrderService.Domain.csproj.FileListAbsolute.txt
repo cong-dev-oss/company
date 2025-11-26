@@ -9,3 +9,4 @@ D:\microservices Net\Company\src\services\OrderService\OrderService.Domain\obj\D
 D:\microservices Net\Company\src\services\OrderService\OrderService.Domain\obj\Debug\net9.0\refint\OrderService.Domain.dll
 D:\microservices Net\Company\src\services\OrderService\OrderService.Domain\obj\Debug\net9.0\OrderService.Domain.pdb
 D:\microservices Net\Company\src\services\OrderService\OrderService.Domain\obj\Debug\net9.0\ref\OrderService.Domain.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Domain\obj\Debug\net9.0\OrderService.Domain.sourcelink.json

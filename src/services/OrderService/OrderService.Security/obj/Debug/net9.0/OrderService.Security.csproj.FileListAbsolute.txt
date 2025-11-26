@@ -10,3 +10,4 @@ D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj
 D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.pdb
 D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\ref\OrderService.Security.dll
 D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.csproj.AssemblyReference.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Security\obj\Debug\net9.0\OrderService.Security.sourcelink.json

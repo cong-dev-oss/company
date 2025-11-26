@@ -10,3 +10,4 @@ D:\microservices Net\Company\src\services\OrderService\OrderService.Configuratio
 D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.pdb
 D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\ref\OrderService.Configuration.dll
 D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.csproj.AssemblyReference.cache
+D:\microservices Net\Company\src\services\OrderService\OrderService.Configuration\obj\Debug\net9.0\OrderService.Configuration.sourcelink.json

@@ -21,3 +21,4 @@ D:\microservices Net\Company\src\services\OrderService\OrderService.Infrastructu
 D:\microservices Net\Company\src\services\OrderService\OrderService.Infrastructure\obj\Debug\net9.0\OrderService.Infrastructure.pdb
 D:\microservices Net\Company\src\services\OrderService\OrderService.Infrastructure\obj\Debug\net9.0\OrderService.Infrastructure.genruntimeconfig.cache
 D:\microservices Net\Company\src\services\OrderService\OrderService.Infrastructure\obj\Debug\net9.0\ref\OrderService.Infrastructure.dll
+D:\microservices Net\Company\src\services\OrderService\OrderService.Infrastructure\obj\Debug\net9.0\OrderService.Infrastructure.sourcelink.json
